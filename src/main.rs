@@ -1,8 +1,10 @@
-use crate::day5::day5;
+extern crate core;
 
-mod day5;
+use crate::day6::day6;
+
 mod common;
+mod day6;
 
 fn main() {
-    day5();
+    day6();
 }
